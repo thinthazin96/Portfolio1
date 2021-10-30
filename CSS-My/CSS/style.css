@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 body{
     margin: 0;
-    /* text-align: center; */
     background-color:#caf7e3;
 
     min-height: 100vh;
@@ -43,36 +42,35 @@ h2{
     background-color: #caf7e3 ;
     position: relative;
     padding-top: 50px;
+    margin: 50px;
     text-align: center;
 }
 .profilepic{
+
     border-radius: 60%;
     width:250px;
     height:300px;
 }
 .map{
     position: absolute;
-    right: 0px;
+    right: 300px;
     width: 200px;
     height: 400px;
 }
 .jjay{
     position: absolute;
-    left: 50px;
+    left: 300px;
     width: 350px;
     height: 300px;
 }
 .bottom-container{
     background-color: #f9dfdc;
 }
-/* body{
-    margin: 0;
-    background: white;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
-    text-align: center; 
-}*/
-
+.middle-container .myinfo{
+    margin: 50px;
+    padding: 100ox;
+    
+}
 /* Navigation */
 .container{
     width: 80%;
@@ -133,32 +131,6 @@ nav a::before{
 nav a:hover::before{
     width: 100%;
 }
-
-/* Skills section */
-
-.wrapper h2{
-    text-align: center;
-    font-size: 30px;
-    font-family: 'Sacramento', cursive;
-}
-
-.skills{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.skill{
-    padding: 0 20px 20px;
-    position: relative;
-}
-
-img:hover{ 
-    transition: .9s;
-}
-
 /* footer */
 .footer{
     background: fill;
