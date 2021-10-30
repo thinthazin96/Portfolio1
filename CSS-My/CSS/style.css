@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 body{
     margin: 0;
     /* text-align: center; */
@@ -51,7 +52,7 @@ h2{
 }
 .map{
     position: absolute;
-    right: 100px;
+    right: 0px;
     width: 200px;
     height: 400px;
 }
@@ -72,6 +73,7 @@ h2{
     text-align: center; 
 }*/
 
+/* Navigation */
 .container{
     width: 80%;
     margin: auto;
@@ -178,11 +180,11 @@ img:hover{
     text-decoration: none;
 }
 
-.footer__link{
+/* .footer__link{
     font-weight: var(--fw-bold);
 }
 
-.footer__link:hover,
+.footer__link:hover, */
 .social-list__link:hover{
     opacity: .7;
 }
